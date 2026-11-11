@@ -1,4 +1,13 @@
 public class Conta {
  String numeroConta;
-int saldo;    
+double saldo;    
+
+public static void main(String[] args) {
+    System.out.println("Iniciando Classe");
+}
+
+public void sacar (double valor) {
+       this.saldo = this.saldo - valor;
+}
+
 }
