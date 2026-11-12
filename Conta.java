@@ -11,6 +11,7 @@ public void sacar (double valor) {
 }
 
 public double consultarSaldo() { 
+    System.out.println("Consultando Saldo");
     return this.saldo;
 }
 
