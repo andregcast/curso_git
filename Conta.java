@@ -15,4 +15,8 @@ public double consultarSaldo() {
     return this.saldo;
 }
 
+public void  depositar(double valor) { 
+        this.saldo = this.saldo + valor;
+}
+
 }
